@@ -12,6 +12,6 @@ const server = net.createServer((socket) => {
   });
 });
 
-server.listen(3000, '3.75.158.163', () => {
+server.listen(10000, '3.75.158.163', () => {
   console.log('sa as');
 });
