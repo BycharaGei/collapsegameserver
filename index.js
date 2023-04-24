@@ -12,6 +12,8 @@ const server = net.createServer((socket) => {
   });
 });
 
-server.listen(443, 'collapsegameserver.onrender.com', () => {
-  console.log('sa as');
+const PORT = process.env.PORT;
+
+server.listen(PORT,  () => {
+  console.log('sa as' + PORT);
 });
