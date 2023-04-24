@@ -12,6 +12,6 @@ const server = net.createServer((socket) => {
   });
 });
 
-server.listen(8080, 'collapsegameserver.onrender.com', () => {
+server.listen(443, '3.75.158.163', () => {
   console.log('sa as');
 });
